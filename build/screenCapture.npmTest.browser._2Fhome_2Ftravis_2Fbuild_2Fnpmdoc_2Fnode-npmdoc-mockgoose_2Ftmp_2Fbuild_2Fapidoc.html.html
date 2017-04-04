@@ -1,0 +1,509 @@
+<html><head></head><body><div class="apidocDiv">
+<style>
+/*csslint
+*/
+.apidocDiv {
+    background: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.apidocDiv a[href] {
+    color: #33f;
+    font-weight: bold;
+    text-decoration: none;
+}
+.apidocDiv a[href]:hover {
+    text-decoration: underline;
+}
+.apidocCodeCommentSpan {
+    background: #bbf;
+    color: #000;
+    display: block;
+}
+.apidocCodeKeywordSpan {
+    color: #d00;
+    font-weight: bold;
+}
+.apidocCodePre {
+    background: #eef;
+    border: 1px solid;
+    color: #777;
+    padding: 5px;
+    white-space: pre-wrap;
+}
+.apidocFooterDiv {
+    margin-top: 20px;
+    text-align: center;
+}
+.apidocModuleLi {
+    margin-top: 10px;
+}
+.apidocSectionDiv {
+    border-top: 1px solid;
+    margin-top: 20px;
+}
+.apidocSignatureSpan {
+    color: #777;
+    font-weight: bold;
+}
+</style>
+<h1>api documentation for
+    <a href="https://github.com/Mockgoose/Mockgoose">mockgoose (v7.1.1)</a>
+</h1>
+<h4>Mockgoose is an in memory database mock to allow for testing of applications that rely on Mongoose.</h4>
+<div class="apidocSectionDiv"><a href="#apidoc.tableOfContents" id="apidoc.tableOfContents"><h1>table of contents</h1></a><ol>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.mockgoose">module mockgoose</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.mockgoose.ConnectionWrapper">
+            function <span class="apidocSignatureSpan">mockgoose.</span>ConnectionWrapper
+            <span class="apidocSignatureSpan">(functionName, mongoose, connectionString)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.mockgoose.Mockgoose">
+            function <span class="apidocSignatureSpan">mockgoose.</span>Mockgoose
+            <span class="apidocSignatureSpan">(mongooseObj)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">mockgoose.</span>ConnectionWrapper.prototype</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">mockgoose.</span>Mockgoose.prototype</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">mockgoose.</span>mockgoose_helper</span>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.mockgoose.ConnectionWrapper">module mockgoose.ConnectionWrapper</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.mockgoose.ConnectionWrapper.ConnectionWrapper">
+            function <span class="apidocSignatureSpan">mockgoose.</span>ConnectionWrapper
+            <span class="apidocSignatureSpan">(functionName, mongoose, connectionString)</span>
+            </a>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.mockgoose.ConnectionWrapper.prototype">module mockgoose.ConnectionWrapper.prototype</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.mockgoose.ConnectionWrapper.prototype.run">
+            function <span class="apidocSignatureSpan">mockgoose.ConnectionWrapper.prototype.</span>run
+            <span class="apidocSignatureSpan">(args)</span>
+            </a>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.mockgoose.Mockgoose">module mockgoose.Mockgoose</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.mockgoose.Mockgoose.Mockgoose">
+            function <span class="apidocSignatureSpan">mockgoose.</span>Mockgoose
+            <span class="apidocSignatureSpan">(mongooseObj)</span>
+            </a>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.mockgoose.Mockgoose.prototype">module mockgoose.Mockgoose.prototype</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.mockgoose.Mockgoose.prototype.getMemoryStorageName">
+            function <span class="apidocSignatureSpan">mockgoose.Mockgoose.prototype.</span>getMemoryStorageName
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.mockgoose.Mockgoose.prototype.getMockConnectionString">
+            function <span class="apidocSignatureSpan">mockgoose.Mockgoose.prototype.</span>getMockConnectionString
+            <span class="apidocSignatureSpan">(port)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.mockgoose.Mockgoose.prototype.getOpenPort">
+            function <span class="apidocSignatureSpan">mockgoose.Mockgoose.prototype.</span>getOpenPort
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.mockgoose.Mockgoose.prototype.getTempDBPath">
+            function <span class="apidocSignatureSpan">mockgoose.Mockgoose.prototype.</span>getTempDBPath
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.mockgoose.Mockgoose.prototype.mockConnectCalls">
+            function <span class="apidocSignatureSpan">mockgoose.Mockgoose.prototype.</span>mockConnectCalls
+            <span class="apidocSignatureSpan">(connection)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.mockgoose.Mockgoose.prototype.prepareStorage">
+            function <span class="apidocSignatureSpan">mockgoose.Mockgoose.prototype.</span>prepareStorage
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.mockgoose.mockgoose_helper">module mockgoose.mockgoose_helper</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.mockgoose.mockgoose_helper.MockgooseHelper">
+            function <span class="apidocSignatureSpan">mockgoose.mockgoose_helper.</span>MockgooseHelper
+            <span class="apidocSignatureSpan">(mongoose, mockgoose)</span>
+            </a>
+
+        </li>
+
+    </ol></li>
+
+</ol></div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.mockgoose" id="apidoc.module.mockgoose">module mockgoose</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.mockgoose.ConnectionWrapper" id="apidoc.element.mockgoose.ConnectionWrapper">
+        function <span class="apidocSignatureSpan">mockgoose.</span>ConnectionWrapper
+        <span class="apidocSignatureSpan">(functionName, mongoose, connectionString)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function ConnectionWrapper(functionName, mongoose, connectionString) {
+    this.functionName = functionName;
+    this.mongoose = mongoose;
+    this.functionCode = mongoose[functionName];
+    this.connectionString = connectionString;
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.mockgoose.Mockgoose" id="apidoc.element.mockgoose.Mockgoose">
+        function <span class="apidocSignatureSpan">mockgoose.</span>Mockgoose
+        <span class="apidocSignatureSpan">(mongooseObj)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function Mockgoose(mongooseObj) {
+    this.mongodHelper = new mongodb_prebuilt_1.MongodHelper();
+    this.debug = Debug('Mockgoose');
+    this.helper = new mockgoose_helper_1.MockgooseHelper(mongooseObj, this);
+    this.mongooseObj = mongooseObj;
+    this.mongooseObj.mocked = true;
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+
+
+
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.mockgoose.ConnectionWrapper" id="apidoc.module.mockgoose.ConnectionWrapper">module mockgoose.ConnectionWrapper</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.mockgoose.ConnectionWrapper.ConnectionWrapper" id="apidoc.element.mockgoose.ConnectionWrapper.ConnectionWrapper">
+        function <span class="apidocSignatureSpan">mockgoose.</span>ConnectionWrapper
+        <span class="apidocSignatureSpan">(functionName, mongoose, connectionString)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function ConnectionWrapper(functionName, mongoose, connectionString) {
+    this.functionName = functionName;
+    this.mongoose = mongoose;
+    this.functionCode = mongoose[functionName];
+    this.connectionString = connectionString;
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.mockgoose.ConnectionWrapper.prototype" id="apidoc.module.mockgoose.ConnectionWrapper.prototype">module mockgoose.ConnectionWrapper.prototype</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.mockgoose.ConnectionWrapper.prototype.run" id="apidoc.element.mockgoose.ConnectionWrapper.prototype.run">
+        function <span class="apidocSignatureSpan">mockgoose.ConnectionWrapper.prototype.</span>run
+        <span class="apidocSignatureSpan">(args)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">run = function (args) {
+    this.originalArguments = args;
+    var mockedArgs = args;
+    mockedArgs[0] = this.connectionString;
+    return this.functionCode.apply(this.mongoose, mockedArgs);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.mockgoose.Mockgoose" id="apidoc.module.mockgoose.Mockgoose">module mockgoose.Mockgoose</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.mockgoose.Mockgoose.Mockgoose" id="apidoc.element.mockgoose.Mockgoose.Mockgoose">
+        function <span class="apidocSignatureSpan">mockgoose.</span>Mockgoose
+        <span class="apidocSignatureSpan">(mongooseObj)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function Mockgoose(mongooseObj) {
+    this.mongodHelper = new mongodb_prebuilt_1.MongodHelper();
+    this.debug = Debug('Mockgoose');
+    this.helper = new mockgoose_helper_1.MockgooseHelper(mongooseObj, this);
+    this.mongooseObj = mongooseObj;
+    this.mongooseObj.mocked = true;
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.mockgoose.Mockgoose.prototype" id="apidoc.module.mockgoose.Mockgoose.prototype">module mockgoose.Mockgoose.prototype</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.mockgoose.Mockgoose.prototype.getMemoryStorageName" id="apidoc.element.mockgoose.Mockgoose.prototype.getMemoryStorageName">
+        function <span class="apidocSignatureSpan">mockgoose.Mockgoose.prototype.</span>getMemoryStorageName
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">getMemoryStorageName = function () {
+    return "ephemeralForTest";
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.mockgoose.Mockgoose.prototype.getMockConnectionString" id="apidoc.element.mockgoose.Mockgoose.prototype.getMockConnectionString">
+        function <span class="apidocSignatureSpan">mockgoose.Mockgoose.prototype.</span>getMockConnectionString
+        <span class="apidocSignatureSpan">(port)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">getMockConnectionString = function (port) {
+    var dbName = 'mockgoose-temp-db-' + uuidV4();
+    var connectionString = "mongodb://localhost:" + port + "/" + dbName;
+    return connectionString;
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.mockgoose.Mockgoose.prototype.getOpenPort" id="apidoc.element.mockgoose.Mockgoose.prototype.getOpenPort">
+        function <span class="apidocSignatureSpan">mockgoose.Mockgoose.prototype.</span>getOpenPort
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">getOpenPort = function () {
+    return new Promise(function (resolve, reject) {
+        portfinder.getPort({ port: 27017 }, function (err, port) {
+            if (err) {
+                reject(err);
+            }
+            else {
+                resolve(port);
+            }
+        });
+    });
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.mockgoose.Mockgoose.prototype.getTempDBPath" id="apidoc.element.mockgoose.Mockgoose.prototype.getTempDBPath">
+        function <span class="apidocSignatureSpan">mockgoose.Mockgoose.prototype.</span>getTempDBPath
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">getTempDBPath = function () {
+    return new Promise(function (resolve, reject) {
+        var tempDir = path.resolve(os.tmpdir(), "mockgoose", Date.now().toString());
+        fs.ensureDir(tempDir, function (err) {
+            if (err)
+                throw err;
+            resolve(tempDir);
+        });
+    });
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.mockgoose.Mockgoose.prototype.mockConnectCalls" id="apidoc.element.mockgoose.Mockgoose.prototype.mockConnectCalls">
+        function <span class="apidocSignatureSpan">mockgoose.Mockgoose.prototype.</span>mockConnectCalls
+        <span class="apidocSignatureSpan">(connection)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">mockConnectCalls = function (connection) {
+    var createConnection = new ConnectionWrapper('createConnection', this.mongooseObj, connection);
+    this.mongooseObj.createConnection = function () { return createConnection.run(arguments); };
+    var connect = new ConnectionWrapper('connect', this.mongooseObj, connection);
+    this.mongooseObj.connect = function () { return connect.run(arguments); };
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.mockgoose.Mockgoose.prototype.prepareStorage" id="apidoc.element.mockgoose.Mockgoose.prototype.prepareStorage">
+        function <span class="apidocSignatureSpan">mockgoose.Mockgoose.prototype.</span>prepareStorage
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">prepareStorage = function () {
+    var _this = this;
+    return new Promise(function (resolve, reject) {
+        var tempDBPathPromise = _this.getTempDBPath();
+        var openPortPromise = _this.getOpenPort();
+        Promise.all([tempDBPathPromise, openPortPromise]).then(function (promiseValues) {
+            var dbPath = promiseValues[0];
+            var openPort = promiseValues[1].toString();
+            var storageEngine = _this.getMemoryStorageName();
+            var mongodArgs = [
+                '--port', openPort,
+                '--storageEngine', storageEngine,
+                '--dbpath', dbPath
+            ];
+            _this.debug("@prepareStorage mongod args, " + mongodArgs);
+            _this.mongodHelper.mongoBin.commandArguments = mongodArgs;
+            _this.mongodHelper.run().then(function () {
+                var connectionString = _this.getMockConnectionString(openPort);
+                _this.mockConnectCalls(connectionString);
+                resolve();
+            }, function (e) {
+                throw e;
+                // return this.prepareStorage();
+            });
+        });
+    });
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+You simply require Mongoose and Mockgoose and wrap Mongoose with Mockgoose.
+
+```javascript
+var mongoose = require('mongoose');
+var Mockgoose = require('mockgoose').Mockgoose;
+var mockgoose = new Mockgoose(mongoose);
+
+mockgoose.<span class="apidocCodeKeywordSpan">prepareStorage</span>().then(function() {
+	// mongoose connection		
+});
+```
+
+Once Mongoose has been wrapped by Mockgoose connect() will be intercepted by Mockgoose so that no MongoDB instance is created.
+
+## Mocha
+...</pre></li>
+    </ul>
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.mockgoose.mockgoose_helper" id="apidoc.module.mockgoose.mockgoose_helper">module mockgoose.mockgoose_helper</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.mockgoose.mockgoose_helper.MockgooseHelper" id="apidoc.element.mockgoose.mockgoose_helper.MockgooseHelper">
+        function <span class="apidocSignatureSpan">mockgoose.mockgoose_helper.</span>MockgooseHelper
+        <span class="apidocSignatureSpan">(mongoose, mockgoose)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function MockgooseHelper(mongoose, mockgoose) {
+    this.mongoose = mongoose;
+    this.mockgoose = mockgoose;
+    this.debug = Debug('MockgooseHelper');
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+</div>
+
+<div class="apidocFooterDiv">
+    [ this document was created with
+    <a href="https://github.com/kaizhu256/node-utility2" target="_blank">utility2</a>
+    ]
+</div>
+</div>
+</body></html>
