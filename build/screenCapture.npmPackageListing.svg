@@ -1,45 +1,45 @@
 <svg height="670" width="720" xmlns="http://www.w3.org/2000/svg">
 <rect height="670" fill="#555" width="720"></rect>
 <text fill="#7f7" font-family="Courier New" font-size="12" xml:space="preserve">
-<tspan x="10" y="26">  0.  2017-04-19 05:42:10 +0000    99004 bytes  .</tspan>
-<tspan x="10" y="42">  1.  2017-04-19 05:42:10 +0000      819 bytes  CHANGELOG.md</tspan>
-<tspan x="10" y="58">  2.  2017-04-19 05:42:10 +0000     3522 bytes  README.md</tspan>
-<tspan x="10" y="74">  3.  2017-04-19 05:42:10 +0000      354 bytes  bugs/158/app.js</tspan>
-<tspan x="10" y="90">  4.  2017-04-19 05:42:10 +0000      279 bytes  bugs/158/package.json</tspan>
-<tspan x="10" y="106">  5.  2017-04-19 05:42:10 +0000      250 bytes  bugs/158/test.js</tspan>
-<tspan x="10" y="122">  6.  2017-04-19 05:42:10 +0000      804 bytes  bugs/190.js</tspan>
-<tspan x="10" y="138">  7.  2017-04-19 05:42:10 +0000     1034 bytes  bugs/192.js</tspan>
-<tspan x="10" y="154">  8.  2017-04-19 05:42:10 +0000      601 bytes  bugs/204-2.js</tspan>
-<tspan x="10" y="170">  9.  2017-04-19 05:42:10 +0000      285 bytes  bugs/204.es6</tspan>
-<tspan x="10" y="186"> 10.  2017-04-19 05:42:10 +0000      209 bytes  bugs/204.js</tspan>
-<tspan x="10" y="202"> 11.  2017-04-19 05:42:10 +0000      408 bytes  bugs/63.js</tspan>
-<tspan x="10" y="218"> 12.  2017-04-19 05:42:10 +0000      615 bytes  built/Mockgoose/src/mockgoose.d.ts</tspan>
-<tspan x="10" y="234"> 13.  2017-04-19 05:42:10 +0000     3109 bytes  built/Mockgoose/src/mockgoose.js</tspan>
-<tspan x="10" y="250"> 14.  2017-04-19 05:42:10 +0000     2313 bytes  built/Mockgoose/src/mockgoose.js.map</tspan>
-<tspan x="10" y="266"> 15.  2017-04-19 05:42:10 +0000      238 bytes  built/mockgoose-helper.d.ts</tspan>
-<tspan x="10" y="282"> 16.  2017-04-19 05:42:10 +0000     1844 bytes  built/mockgoose-helper.js</tspan>
-<tspan x="10" y="298"> 17.  2017-04-19 05:42:10 +0000     1425 bytes  built/mockgoose-helper.js.map</tspan>
-<tspan x="10" y="314"> 18.  2017-04-19 05:42:10 +0000      793 bytes  built/mockgoose.d.ts</tspan>
-<tspan x="10" y="330"> 19.  2017-04-19 05:42:10 +0000     4393 bytes  built/mockgoose.js</tspan>
-<tspan x="10" y="346"> 20.  2017-04-19 05:42:10 +0000     3414 bytes  built/mockgoose.js.map</tspan>
-<tspan x="10" y="362"> 21.  2017-04-19 05:42:10 +0000      556 bytes  built/mongodb-prebuilt/built/mongodb-prebuilt-al\</tspan>
+<tspan x="10" y="26">  0.  2017-04-19 05:43:23 +0000    99004 bytes  .</tspan>
+<tspan x="10" y="42">  1.  2017-04-19 05:43:23 +0000      819 bytes  CHANGELOG.md</tspan>
+<tspan x="10" y="58">  2.  2017-04-19 05:43:23 +0000     3522 bytes  README.md</tspan>
+<tspan x="10" y="74">  3.  2017-04-19 05:43:23 +0000      354 bytes  bugs/158/app.js</tspan>
+<tspan x="10" y="90">  4.  2017-04-19 05:43:23 +0000      279 bytes  bugs/158/package.json</tspan>
+<tspan x="10" y="106">  5.  2017-04-19 05:43:23 +0000      250 bytes  bugs/158/test.js</tspan>
+<tspan x="10" y="122">  6.  2017-04-19 05:43:23 +0000      804 bytes  bugs/190.js</tspan>
+<tspan x="10" y="138">  7.  2017-04-19 05:43:23 +0000     1034 bytes  bugs/192.js</tspan>
+<tspan x="10" y="154">  8.  2017-04-19 05:43:23 +0000      601 bytes  bugs/204-2.js</tspan>
+<tspan x="10" y="170">  9.  2017-04-19 05:43:23 +0000      285 bytes  bugs/204.es6</tspan>
+<tspan x="10" y="186"> 10.  2017-04-19 05:43:23 +0000      209 bytes  bugs/204.js</tspan>
+<tspan x="10" y="202"> 11.  2017-04-19 05:43:23 +0000      408 bytes  bugs/63.js</tspan>
+<tspan x="10" y="218"> 12.  2017-04-19 05:43:23 +0000      615 bytes  built/Mockgoose/src/mockgoose.d.ts</tspan>
+<tspan x="10" y="234"> 13.  2017-04-19 05:43:23 +0000     3109 bytes  built/Mockgoose/src/mockgoose.js</tspan>
+<tspan x="10" y="250"> 14.  2017-04-19 05:43:23 +0000     2313 bytes  built/Mockgoose/src/mockgoose.js.map</tspan>
+<tspan x="10" y="266"> 15.  2017-04-19 05:43:23 +0000      238 bytes  built/mockgoose-helper.d.ts</tspan>
+<tspan x="10" y="282"> 16.  2017-04-19 05:43:23 +0000     1844 bytes  built/mockgoose-helper.js</tspan>
+<tspan x="10" y="298"> 17.  2017-04-19 05:43:23 +0000     1425 bytes  built/mockgoose-helper.js.map</tspan>
+<tspan x="10" y="314"> 18.  2017-04-19 05:43:23 +0000      793 bytes  built/mockgoose.d.ts</tspan>
+<tspan x="10" y="330"> 19.  2017-04-19 05:43:23 +0000     4393 bytes  built/mockgoose.js</tspan>
+<tspan x="10" y="346"> 20.  2017-04-19 05:43:23 +0000     3414 bytes  built/mockgoose.js.map</tspan>
+<tspan x="10" y="362"> 21.  2017-04-19 05:43:23 +0000      556 bytes  built/mongodb-prebuilt/built/mongodb-prebuilt-al\</tspan>
 <tspan x="10" y="378">l.js</tspan>
-<tspan x="10" y="394"> 22.  2017-04-19 05:42:10 +0000      642 bytes  built/mongodb-prebuilt/built/mongodb-prebuilt-al\</tspan>
+<tspan x="10" y="394"> 22.  2017-04-19 05:43:23 +0000      642 bytes  built/mongodb-prebuilt/built/mongodb-prebuilt-al\</tspan>
 <tspan x="10" y="410">l.js.map</tspan>
-<tspan x="10" y="426"> 23.  2017-04-19 05:42:10 +0000    47462 bytes  images/mockgoose.png</tspan>
-<tspan x="10" y="442"> 24.  2017-04-19 05:42:10 +0000     2952 bytes  package.json</tspan>
-<tspan x="10" y="458"> 25.  2017-04-19 05:42:10 +0000      539 bytes  specifyVersion.js</tspan>
-<tspan x="10" y="474"> 26.  2017-04-19 05:42:10 +0000     1202 bytes  src/mockgoose-helper.ts</tspan>
-<tspan x="10" y="490"> 27.  2017-04-19 05:42:10 +0000     3796 bytes  src/mockgoose.ts</tspan>
-<tspan x="10" y="506"> 28.  2017-04-19 05:42:10 +0000      443 bytes  test.js</tspan>
-<tspan x="10" y="522"> 29.  2017-04-19 05:42:10 +0000     1655 bytes  test/15.js</tspan>
-<tspan x="10" y="538"> 30.  2017-04-19 05:42:10 +0000      650 bytes  test/170.js</tspan>
-<tspan x="10" y="554"> 31.  2017-04-19 05:42:10 +0000     1132 bytes  test/179.js</tspan>
-<tspan x="10" y="570"> 32.  2017-04-19 05:42:10 +0000     1018 bytes  test/189.js</tspan>
-<tspan x="10" y="586"> 33.  2017-04-19 05:42:10 +0000      652 bytes  test/195.js</tspan>
-<tspan x="10" y="602"> 34.  2017-04-19 05:42:10 +0000     1264 bytes  test/index.js</tspan>
-<tspan x="10" y="618"> 35.  2017-04-19 05:42:10 +0000       16 bytes  test/mocha.opts</tspan>
-<tspan x="10" y="634"> 36.  2017-04-19 05:42:10 +0000      638 bytes  tsconfig.json</tspan>
-<tspan x="10" y="650"> 37.  2017-04-19 05:42:10 +0000     7678 bytes  twittershare.png</tspan>
+<tspan x="10" y="426"> 23.  2017-04-19 05:43:23 +0000    47462 bytes  images/mockgoose.png</tspan>
+<tspan x="10" y="442"> 24.  2017-04-19 05:43:23 +0000     2952 bytes  package.json</tspan>
+<tspan x="10" y="458"> 25.  2017-04-19 05:43:23 +0000      539 bytes  specifyVersion.js</tspan>
+<tspan x="10" y="474"> 26.  2017-04-19 05:43:23 +0000     1202 bytes  src/mockgoose-helper.ts</tspan>
+<tspan x="10" y="490"> 27.  2017-04-19 05:43:23 +0000     3796 bytes  src/mockgoose.ts</tspan>
+<tspan x="10" y="506"> 28.  2017-04-19 05:43:23 +0000      443 bytes  test.js</tspan>
+<tspan x="10" y="522"> 29.  2017-04-19 05:43:23 +0000     1655 bytes  test/15.js</tspan>
+<tspan x="10" y="538"> 30.  2017-04-19 05:43:23 +0000      650 bytes  test/170.js</tspan>
+<tspan x="10" y="554"> 31.  2017-04-19 05:43:23 +0000     1132 bytes  test/179.js</tspan>
+<tspan x="10" y="570"> 32.  2017-04-19 05:43:23 +0000     1018 bytes  test/189.js</tspan>
+<tspan x="10" y="586"> 33.  2017-04-19 05:43:23 +0000      652 bytes  test/195.js</tspan>
+<tspan x="10" y="602"> 34.  2017-04-19 05:43:23 +0000     1264 bytes  test/index.js</tspan>
+<tspan x="10" y="618"> 35.  2017-04-19 05:43:23 +0000       16 bytes  test/mocha.opts</tspan>
+<tspan x="10" y="634"> 36.  2017-04-19 05:43:23 +0000      638 bytes  tsconfig.json</tspan>
+<tspan x="10" y="650"> 37.  2017-04-19 05:43:23 +0000     7678 bytes  twittershare.png</tspan>
 </text>
 </svg>
