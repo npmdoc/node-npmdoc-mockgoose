@@ -1,6 +1,6 @@
 # npmdoc-mockgoose
 
-#### api documentation for  [mockgoose (v7.1.2)](https://github.com/Mockgoose/Mockgoose)  [![npm package](https://img.shields.io/npm/v/npmdoc-mockgoose.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-mockgoose) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-mockgoose.svg)](https://travis-ci.org/npmdoc/node-npmdoc-mockgoose)
+#### basic api documentation for  [mockgoose (v7.3.1)](https://github.com/Mockgoose/Mockgoose)  [![npm package](https://img.shields.io/npm/v/npmdoc-mockgoose.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-mockgoose) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-mockgoose.svg)](https://travis-ci.org/npmdoc/node-npmdoc-mockgoose)
 
 #### Mockgoose is an in memory database mock to allow for testing of applications that rely on Mongoose.
 
@@ -31,7 +31,8 @@
         "async": "2.1.5",
         "debug": "2.2.0",
         "fs-extra": "^2.0.0",
-        "mongodb-prebuilt": "^6.0.2",
+        "https-proxy-agent": "1.0.0",
+        "mongodb-prebuilt": "^6.3.1",
         "portfinder": "^1.0.13",
         "rimraf": "^2.6.1",
         "uuid": "^3.0.1"
@@ -49,13 +50,13 @@
     },
     "directories": {},
     "dist": {
-        "shasum": "880ae9d67465608dd2795bf0ee4846e624fb76b9",
-        "tarball": "https://registry.npmjs.org/mockgoose/-/mockgoose-7.1.2.tgz"
+        "shasum": "8990fd353c6fb3efc0684b745c3d504bb19a2dba",
+        "tarball": "https://registry.npmjs.org/mockgoose/-/mockgoose-7.3.1.tgz"
     },
     "engines": {
         "node": ">=4"
     },
-    "gitHead": "6d5137b582f7d0f1fb5ff2c1598c87074eeb2e94",
+    "gitHead": "c545f6aa6db638e8e4ee4a9b35fa4b225e4cd464",
     "homepage": "https://github.com/Mockgoose/Mockgoose",
     "keywords": [
         "mongodb",
@@ -89,7 +90,8 @@
         "test": "mocha"
     },
     "types": "built/mockgoose.d.ts",
-    "version": "7.1.2"
+    "version": "7.3.1",
+    "bin": {}
 }
 ```
 
